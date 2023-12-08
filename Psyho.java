@@ -3,8 +3,6 @@
  * developed by Psyho in the Huawei contest https://codeforces.com/contest/1885/problem/A
  */
 
-package icpc_2023_online_challenge;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
