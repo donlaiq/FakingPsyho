@@ -5,6 +5,7 @@
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -48,7 +49,7 @@ public class Psyho {
     private static long time_passed = 0;
 	
 	private static class RNG {
-		Random random = new Random();
+		Random random = new SecureRandom();
 			
 		public int rand()
 		{
